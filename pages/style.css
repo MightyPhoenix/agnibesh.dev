@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Neucha&family=VT323&display=swap');
+
+.font-vt {
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+}
+.font-caveat {
+    font-size: 50px;
+    font-family: 'Caveat', cursive;
+}
+.font-neucha {
+    font-family: 'Neucha', cursive;
+}
+
+.text-grad {
+    /*background: -webkit-linear-gradient(#d9afd9 0%, #97d9e1 100%);*/
+    background: -webkit-linear-gradient(#fa709a 0%, #fee140 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body{
+    min-height: 100vh;
+    background-color: black;
+}
+main{
+    height: 86vh;
+    flex: 1 0 auto;
+}
+
+a {
+    color: deeppink;
+}
+
+.transparent {
+    background: transparent;
+}
+
+.gradhot {
+    background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+    border-radius: 20px;
+}
+
+.myfooter {
+    background-color: rgba(255,255,255,0.02);
+    color:white;
+    width:100%;
+}
