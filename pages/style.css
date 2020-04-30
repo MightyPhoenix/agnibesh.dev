@@ -12,28 +12,38 @@
     font-family: 'Neucha', cursive;
 }
 
-.text-grad {
-    /*background: -webkit-linear-gradient(#d9afd9 0%, #97d9e1 100%);*/
-    background: -webkit-linear-gradient(#fa709a 0%, #fee140 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /*.text-grad {*/
+    /*         !*background: -webkit-linear-gradient(#d9afd9 0%, #97d9e1 100%);*!*/
+    /*         background: -webkit-linear-gradient(#192cf2 0%, #2575fc 100%);*/
+    /*         -webkit-background-clip: text;*/
+    /*         -webkit-text-fill-color: transparent;*/
+    /*     }*/
+
+::selection {
+    color: black;
+    background-color: deeppink;
 }
 
-body{
+.body{
     min-height: 100vh;
     background-color: black;
+    display: flex;
+    flex-direction: column;
 }
+
 main{
-    height: 86vh;
     flex: 1 0 auto;
 }
 
-a {
-    color: deeppink;
+.jumbo{
+    margin-top: 20px;
+    background-image: linear-gradient(to bottom, #0250c5 0%, #d43f8d 100%);
+    border-radius: 25px;
 }
 
-.transparent {
-    background: transparent;
+
+.pinkgrad {
+    background-image: linear-gradient(to bottom, #0250c5 0%, #d43f8d 100%);
 }
 
 .gradhot {

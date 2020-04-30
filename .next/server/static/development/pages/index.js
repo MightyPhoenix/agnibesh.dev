@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -114,6 +114,9 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+if (false) {}
+
+
 
 const index = () => {
   const Nav = [{
@@ -126,18 +129,23 @@ const index = () => {
     name: "Contact",
     link: "/contact"
   }];
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  }, []);
   return __jsx("div", {
+    className: "body",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 18,
       columnNumber: 5
     }
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 19,
       columnNumber: 9
     }
   }, __jsx("meta", {
@@ -145,7 +153,7 @@ const index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 20,
       columnNumber: 13
     }
   }), __jsx("meta", {
@@ -154,24 +162,51 @@ const index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 21,
+      columnNumber: 13
+    }
+  }), __jsx("meta", {
+    name: "theme-color",
+    content: "#000",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }), __jsx("link", {
+    rel: "stylesheet",
+    href: "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
       columnNumber: 13
     }
   }), __jsx("title", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 24,
       columnNumber: 13
     }
-  }, "Agnibesh.dev"), __jsx("script", {
+  }, "Agnibesh.dev"), __jsx("link", {
+    href: "https://fonts.googleapis.com/icon?family=Material+Icons",
+    rel: "stylesheet",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 13
+    }
+  }), __jsx("script", {
     src: "https://code.jquery.com/jquery-3.4.1.slim.min.js",
     integrity: "sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n",
     crossOrigin: "anonymous",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 26,
       columnNumber: 13
     }
   }), __jsx("script", {
@@ -181,7 +216,7 @@ const index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 29,
       columnNumber: 13
     }
   }), __jsx("script", {
@@ -191,7 +226,7 @@ const index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 32,
       columnNumber: 13
     }
   })), __jsx(_src_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -199,66 +234,69 @@ const index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 37,
       columnNumber: 9
     }
   }), __jsx("main", {
-    className: "container",
+    className: "container valign-wrapper",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 39,
       columnNumber: 9
     }
   }, __jsx("div", {
-    className: "jumbotron mt-4 transparent text-white",
+    className: "row valign-wrapper center jumbo",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 40,
       columnNumber: 13
     }
   }, __jsx("div", {
-    className: "row h-100",
+    className: "col m4 hide-on-med-and-down ",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 17
-    }
-  }, __jsx("div", {
-    className: "col-md-4 justify-content-center text-center",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 41,
       columnNumber: 21
     }
   }, __jsx("img", {
-    width: "80%",
-    className: "rounded-circle align-middle",
+    width: "100%",
+    className: "circle responsive-img",
     src: "/displaypicture.jpg",
     alt: "myface",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 42,
       columnNumber: 25
     }
   })), __jsx("div", {
-    className: "col-md-8 col-sm-12 justify-content-center align-self-center text-center text-grad",
+    className: "col m8 s12 white-text",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 44,
       columnNumber: 21
     }
-  }, __jsx("h1", {
+  }, __jsx("img", {
+    width: "80%",
+    className: "hide-on-large-only hide-on-extra-large-only section circle responsive-img",
+    src: "/displaypicture.jpg",
+    alt: "myface",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 25
+    }
+  }), __jsx("h1", {
     className: "h1 font-caveat pt-sm-2",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 46,
       columnNumber: 25
     }
   }, "Agnibesh Mukherjee"), __jsx("h4", {
@@ -266,22 +304,31 @@ const index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 48,
       columnNumber: 25
     }
-  }, " Computer Enthusiast | JavaScript Ninja "), __jsx("p", {
+  }, " Computer Enthusiast ", __jsx("span", {
+    className: "hide-on-small-and-down",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 48,
+      columnNumber: 77
+    }
+  }, " | "), " JavaScript Ninja "), __jsx("p", {
+    className: "flow-text",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
       columnNumber: 25
     }
   }, "I grew up thinking computers were magical, and here I am making magic happen. I always like to create what I like for instance music, graphics, applications, videos and the Technology has provided me with the parallel applications to achieve that in my home computer i.e FL Studio, Photoshop, Adobe Premier Pro"), __jsx("blockquote", {
-    className: "",
+    className: "flow-text",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 50,
       columnNumber: 25
     }
   }, "Didn't like much computer games but started with ", __jsx("a", {
@@ -289,15 +336,15 @@ const index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 99
+      lineNumber: 50,
+      columnNumber: 108
     }
-  }, "habbo.com"), " but as usual made a clone of that game too! But later on started an affection for FPS games."))))), __jsx(_src_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "habbo.com"), " but as usual made a clone of that game too! But later on started an affection for FPS games.")))), __jsx(_src_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 9
+      lineNumber: 54,
+      columnNumber: 5
     }
   }));
 };
@@ -322,27 +369,24 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const Footer = () => {
-  return __jsx("div", {
-    className: "myfooter",
+  return __jsx("footer", {
+    className: "page-footer transparent",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5,
       columnNumber: 9
     }
-  }, __jsx("footer", {
-    className: "align-middle",
+  }, __jsx("div", {
+    className: "footer-copyright",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6,
       columnNumber: 13
     }
-  }, __jsx("p", {
-    className: "text-center align-middle m-2",
-    style: {
-      fontFamily: 'Neucha'
-    },
+  }, __jsx("div", {
+    className: "container center font-neucha",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -380,96 +424,152 @@ const Navbar = props => {
       columnNumber: 9
     }
   }, __jsx("nav", {
-    className: "navbar navbar-expand-lg navbar-dark transparent",
+    className: "transparent",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6,
-      columnNumber: 13
+      columnNumber: 9
     }
   }, __jsx("div", {
-    className: "container",
+    className: "nav-wrapper container",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7,
-      columnNumber: 17
+      columnNumber: 13
     }
   }, __jsx("a", {
-    className: "navbar-brand font-vt",
-    href: "#",
+    className: "brand-logo font-vt left",
+    href: "/",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8,
       columnNumber: 17
     }
-  }, "Agnibesh.DeV"), __jsx("button", {
-    className: "navbar-toggler",
-    type: "button",
-    "data-toggle": "collapse",
-    "data-target": "#navbarSupportedContent",
-    "aria-controls": "navbarSupportedContent",
-    "aria-expanded": "false",
-    "aria-label": "Toggle navigation",
+  }, "Agnibesh.DeV"), __jsx("a", {
+    href: "#",
+    "data-target": "mobile-demo",
+    className: "sidenav-trigger right",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9,
       columnNumber: 17
     }
-  }, __jsx("span", {
-    className: "navbar-toggler-icon",
+  }, __jsx("i", {
+    className: "material-icons",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 21
+      lineNumber: 9,
+      columnNumber: 89
     }
-  })), __jsx("div", {
-    className: "collapse navbar-collapse",
-    id: "navbarSupportedContent",
+  }, "menu")), __jsx("ul", {
+    id: "nav-mobile",
+    className: "font-neucha flow-text right hide-on-med-and-down",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 10,
       columnNumber: 17
-    }
-  }, __jsx("ul", {
-    className: "navbar-nav ml-auto",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 21
     }
   }, props.NavItems.map(item => {
     return __jsx("li", {
-      className: "nav-item",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18,
-        columnNumber: 33
+        lineNumber: 12,
+        columnNumber: 32
       }
     }, __jsx("a", {
-      className: "nav-link",
       href: item.link,
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19,
-        columnNumber: 37
+        lineNumber: 12,
+        columnNumber: 36
       }
     }, item.name));
-  }))))));
+  })))), __jsx("ul", {
+    className: "sidenav font-neucha pinkgrad center white-text",
+    id: "mobile-demo",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    style: {
+      marginTop: "50%"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 17
+    }
+  }, __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 21
+    }
+  }, __jsx("h5", {
+    className: "font-vt brand-logo",
+    style: {
+      fontSize: "48px"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 25
+    }
+  }, "Agnibesh.DeV")), __jsx("hr", {
+    className: "center",
+    style: {
+      width: "80%"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 21
+    }
+  }), props.NavItems.map(item => {
+    return __jsx("li", {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26,
+        columnNumber: 32
+      }
+    }, __jsx("a", {
+      className: "white-text",
+      style: {
+        fontSize: "32px",
+        marginTop: "5px"
+      },
+      href: item.link,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26,
+        columnNumber: 36
+      }
+    }, item.name));
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

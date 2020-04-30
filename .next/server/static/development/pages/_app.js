@@ -93,17 +93,6 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/bootstrap/dist/css/bootstrap.min.css":
-/*!***********************************************************!*\
-  !*** ./node_modules/bootstrap/dist/css/bootstrap.min.css ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
 /***/ "./pages/_app.js":
 /*!***********************!*\
   !*** ./pages/_app.js ***!
@@ -115,10 +104,10 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.css */ "./pages/style.css");
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ "./pages/style.css");
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _glitch_sass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./glitch.sass */ "./pages/glitch.sass");
+/* harmony import */ var _glitch_sass__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_glitch_sass__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "D:\\projects\\agnibesh.dev\\pages\\_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -143,6 +132,17 @@ const AgnibeshDev = ({
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (AgnibeshDev);
+
+/***/ }),
+
+/***/ "./pages/glitch.sass":
+/*!***************************!*\
+  !*** ./pages/glitch.sass ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
 
 /***/ }),
 

@@ -2,11 +2,13 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className="myfooter">
-            <footer className="align-middle">
-                <p className='text-center align-middle m-2' style={{fontFamily: 'Neucha',}}>Made with ❤ by Agnibesh © 2020</p>
-            </footer>
-        </div>
+        <footer className="page-footer transparent">
+            <div className="footer-copyright">
+                <div className="container center font-neucha">
+                    Made with ❤ by Agnibesh © 2020
+                </div>
+            </div>
+        </footer>
     );
 };
 
