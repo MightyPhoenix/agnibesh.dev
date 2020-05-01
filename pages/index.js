@@ -36,19 +36,30 @@ const index = () =>{
         {/*HEAD END*/}
         <Navbar NavItems={Nav}/>
         {/*NAV END*/}
-        <main className="container valign-wrapper">
-            <div className="row valign-wrapper center jumbo">
-                    <div className="col m4 hide-on-med-and-down ">
-                        <img width="100%" className="circle responsive-img" src="/displaypicture.jpg" alt="myface"/>
+        <main>
+            <div className="section">
+                <div className="row container valign-wrapper center jumbo">
+                    <div className="col l4 hide-on-med-and-down ">
+                        <img width="95%" className="circle responsive-img" src="/displaypicture.jpg" alt="myface"/>
                     </div>
-                    <div className="col m8 s12 white-text">
-                        <img width="80%" className="hide-on-large-only hide-on-extra-large-only section circle responsive-img" src="/displaypicture.jpg" alt="myface"/>
-                        <h1 className="h1 font-caveat pt-sm-2">Agnibesh Mukherjee</h1>
-                        {/*<h1 className="glitch">GLitch</h1>*/}
+                    <div className="col l8 center white-text">
+                        <img width="60%" className="hide-on-large-only hide-on-extra-large-only circle responsive-img" style={{marginTop:"20px"}} src="/displaypicture.jpg" alt="myface"/>
+                        <h1 className="h1 font-caveat">Agnibesh Mukherjee</h1>
                         <h4 className="h4 font-neucha"> Computer Enthusiast <span className="hide-on-small-and-down"> | </span> JavaScript Ninja </h4>
-                        <p className="flow-text">I grew up thinking computers were magical, and here I am making magic happen. I always like to create what I like for instance music, graphics, applications, videos and the Technology has provided me with the parallel applications to achieve that in my home computer i.e FL Studio, Photoshop, Adobe Premier Pro</p>
-                        <blockquote className="flow-text">Didn't like much computer games but started with <a href="www.habbo.com">habbo.com</a> but as usual made a clone of that game too! But later on started an affection for FPS games.</blockquote>
+                        <p className="flow-text font-neucha ">I grew up thinking computers were magical, and here I am making magic happen. I always like to create what I like for instance music, graphics, applications, videos and the Technology has provided me with the parallel applications to achieve that in my home computer i.e FL Studio, Photoshop, Adobe Premier Pro</p>
+                        <blockquote className="flow-text font-neucha">Didn't like much computer games but started with <a href="www.habbo.com">habbo.com</a> but as usual made a clone of that game too! But later on started an affection for FPS games.</blockquote>
                     </div>
+                </div>
+            </div>
+            <div className="section">
+                <div className="row white-text">
+                    <div className="col s12">
+                        <h3 className="center">Skills</h3>
+                    </div>
+                    <div className="col s12">
+                        <h3 className="center">Skills</h3>
+                    </div>
+                </div>
             </div>
         </main>
     <Footer/>

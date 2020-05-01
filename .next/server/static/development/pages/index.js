@@ -238,7 +238,6 @@ const index = () => {
       columnNumber: 9
     }
   }), __jsx("main", {
-    className: "container valign-wrapper",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -246,7 +245,7 @@ const index = () => {
       columnNumber: 9
     }
   }, __jsx("div", {
-    className: "row valign-wrapper center jumbo",
+    className: "section",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -254,49 +253,60 @@ const index = () => {
       columnNumber: 13
     }
   }, __jsx("div", {
-    className: "col m4 hide-on-med-and-down ",
+    className: "row container valign-wrapper center jumbo",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41,
+      columnNumber: 17
+    }
+  }, __jsx("div", {
+    className: "col l4 hide-on-med-and-down ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
       columnNumber: 21
     }
   }, __jsx("img", {
-    width: "100%",
+    width: "95%",
     className: "circle responsive-img",
     src: "/displaypicture.jpg",
     alt: "myface",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 43,
       columnNumber: 25
     }
   })), __jsx("div", {
-    className: "col m8 s12 white-text",
+    className: "col l8 center white-text",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 45,
       columnNumber: 21
     }
   }, __jsx("img", {
-    width: "80%",
-    className: "hide-on-large-only hide-on-extra-large-only section circle responsive-img",
+    width: "60%",
+    className: "hide-on-large-only hide-on-extra-large-only circle responsive-img",
+    style: {
+      marginTop: "20px"
+    },
     src: "/displaypicture.jpg",
     alt: "myface",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 46,
       columnNumber: 25
     }
   }), __jsx("h1", {
-    className: "h1 font-caveat pt-sm-2",
+    className: "h1 font-caveat",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 47,
       columnNumber: 25
     }
   }, "Agnibesh Mukherjee"), __jsx("h4", {
@@ -316,7 +326,7 @@ const index = () => {
       columnNumber: 77
     }
   }, " | "), " JavaScript Ninja "), __jsx("p", {
-    className: "flow-text",
+    className: "flow-text font-neucha ",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -324,7 +334,7 @@ const index = () => {
       columnNumber: 25
     }
   }, "I grew up thinking computers were magical, and here I am making magic happen. I always like to create what I like for instance music, graphics, applications, videos and the Technology has provided me with the parallel applications to achieve that in my home computer i.e FL Studio, Photoshop, Adobe Premier Pro"), __jsx("blockquote", {
-    className: "flow-text",
+    className: "flow-text font-neucha",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -337,13 +347,61 @@ const index = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50,
-      columnNumber: 108
+      columnNumber: 120
     }
-  }, "habbo.com"), " but as usual made a clone of that game too! But later on started an affection for FPS games.")))), __jsx(_src_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "habbo.com"), " but as usual made a clone of that game too! But later on started an affection for FPS games.")))), __jsx("div", {
+    className: "section",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 54,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "row white-text",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 17
+    }
+  }, __jsx("div", {
+    className: "col s12",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 21
+    }
+  }, __jsx("h3", {
+    className: "center",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 25
+    }
+  }, "Skills")), __jsx("div", {
+    className: "col s12",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 21
+    }
+  }, __jsx("h3", {
+    className: "center",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 25
+    }
+  }, "Skills"))))), __jsx(_src_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
       columnNumber: 5
     }
   }));
@@ -417,6 +475,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const Navbar = props => {
   return __jsx("div", {
+    style: {
+      padding: "0px",
+      margin: "0px"
+    },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -440,7 +502,10 @@ const Navbar = props => {
       columnNumber: 13
     }
   }, __jsx("a", {
-    className: "brand-logo font-vt left",
+    className: "brand-logo font-vt left glitch",
+    style: {
+      padding: "25px"
+    },
     href: "/",
     __self: undefined,
     __source: {
@@ -452,6 +517,9 @@ const Navbar = props => {
     href: "#",
     "data-target": "mobile-demo",
     className: "sidenav-trigger right",
+    style: {
+      padding: "25px"
+    },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -464,11 +532,14 @@ const Navbar = props => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9,
-      columnNumber: 89
+      columnNumber: 114
     }
   }, "menu")), __jsx("ul", {
     id: "nav-mobile",
     className: "font-neucha flow-text right hide-on-med-and-down",
+    style: {
+      padding: "25px"
+    },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,

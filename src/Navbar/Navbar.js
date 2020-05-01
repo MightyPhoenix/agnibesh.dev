@@ -2,12 +2,12 @@ import React from 'react';
 
 const Navbar = (props) => {
     return (
-        <div>
+        <div style={{padding:"0px",margin:"0px"}}>
         <nav className="transparent">
             <div className="nav-wrapper container">
-                <a className="brand-logo font-vt left" href="/">Agnibesh.DeV</a>
-                <a href="#" data-target="mobile-demo" className="sidenav-trigger right"><i className="material-icons">menu</i></a>
-                <ul id="nav-mobile" className="font-neucha flow-text right hide-on-med-and-down">
+                <a className="brand-logo font-vt left glitch" style={{padding:"25px"}} href="/">Agnibesh.DeV</a>
+                <a href="#" data-target="mobile-demo" className="sidenav-trigger right" style={{padding:"25px"}}><i className="material-icons">menu</i></a>
+                <ul id="nav-mobile" className="font-neucha flow-text right hide-on-med-and-down" style={{padding:"25px"}}>
                     {props.NavItems.map((item) => {
                         return(<li><a href={item.link}>{item.name}</a></li>)
                     })}
