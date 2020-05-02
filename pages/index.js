@@ -31,7 +31,7 @@ const index = () =>{
         {/*HEAD END*/}
         <Navbar NavItems={Nav}/>
         {/*NAV END*/}
-        <main>
+        <main style={{zIndex:"1000"}}>
             <div className="section">
                 <Bio/>
             </div>

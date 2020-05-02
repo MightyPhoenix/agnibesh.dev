@@ -33,7 +33,6 @@
 
 main{
     flex: 1 0 auto;
-    z-index: 1000;
 }
 
 .jumbo{
@@ -68,7 +67,7 @@ main{
     padding: 0;
     top: 0;
     left: 0;
-    z-index: 998;
+    z-index: 999;
 }
 
 .myfooter {
