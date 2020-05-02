@@ -108,8 +108,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _src_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/Navbar/Navbar */ "./src/Navbar/Navbar.js");
 /* harmony import */ var _src_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/Footer/Footer */ "./src/Footer/Footer.js");
 /* harmony import */ var _src_Skills_Skills__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/Skills/Skills */ "./src/Skills/Skills.js");
+/* harmony import */ var _src_Bio_Bio__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/Bio/Bio */ "./src/Bio/Bio.js");
 var _jsxFileName = "D:\\projects\\agnibesh.dev\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -138,7 +140,7 @@ const index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 21,
       columnNumber: 5
     }
   }, __jsx(_src_HEAD_HEAD__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -146,7 +148,7 @@ const index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 22,
       columnNumber: 9
     }
   }), __jsx(_src_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -154,14 +156,14 @@ const index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 24,
       columnNumber: 9
     }
   }), __jsx("main", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 26,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -169,24 +171,76 @@ const index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 27,
       columnNumber: 13
     }
-  }, __jsx("div", {
+  }, __jsx(_src_Bio_Bio__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 17
+    }
+  })), __jsx("div", {
+    className: "section",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 13
+    }
+  }, __jsx(_src_Skills_Skills__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 17
+    }
+  }))), __jsx(_src_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 5
+    }
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (index);
+
+/***/ }),
+
+/***/ "./src/Bio/Bio.js":
+/*!************************!*\
+  !*** ./src/Bio/Bio.js ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "D:\\projects\\agnibesh.dev\\src\\Bio\\Bio.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const Bio = () => {
+  return __jsx("div", {
     className: "row container valign-wrapper center jumbo",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 17
+      lineNumber: 5,
+      columnNumber: 9
     }
   }, __jsx("div", {
     className: "col l4 hide-on-med-and-down ",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 21
+      lineNumber: 6,
+      columnNumber: 13
     }
   }, __jsx("img", {
     width: "95%",
@@ -196,16 +250,16 @@ const index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 25
+      lineNumber: 7,
+      columnNumber: 17
     }
   })), __jsx("div", {
     className: "col l8 center white-text",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 21
+      lineNumber: 9,
+      columnNumber: 13
     }
   }, __jsx("img", {
     width: "60%",
@@ -218,48 +272,48 @@ const index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 25
+      lineNumber: 10,
+      columnNumber: 17
     }
   }), __jsx("h1", {
     className: "h1 font-caveat",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 25
+      lineNumber: 11,
+      columnNumber: 17
     }
   }, "Agnibesh Mukherjee"), __jsx("h4", {
     className: "h4 font-neucha",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 25
+      lineNumber: 12,
+      columnNumber: 17
     }
   }, " Computer Enthusiast ", __jsx("span", {
     className: "hide-on-small-and-down",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 77
+      lineNumber: 12,
+      columnNumber: 69
     }
   }, " | "), " JavaScript Ninja "), __jsx("p", {
     className: "flow-text font-neucha ",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 25
+      lineNumber: 14,
+      columnNumber: 17
     }
   }, "The tech-support guy, neighborhood Facebook hacker. People refer to me as those, but I keep a keen interest in FullStack Development (MER/VN), Machine Learning, and Network Security areas. Actively strive in Hackathons and Techfest. Won ACM East India Hackathon 2020 with my Fabulous Team."), __jsx("p", {
     className: "flow-text font-neucha",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 25
+      lineNumber: 21,
+      columnNumber: 17
     }
   }, "Apart from these I am a very meticulous listener and a leisurely learner because of perfectionism, have strong opinions mostly regarding everything. Also, an INFJ if that makes sense..."), __jsx("blockquote", {
     className: "black-border left-align flow-text font-neucha",
@@ -269,15 +323,15 @@ const index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 25
+      lineNumber: 26,
+      columnNumber: 17
     }
   }, "Go to Games are Apex Legends, Destiny 2, DirtyBomb ", __jsx("br", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 80
+      lineNumber: 27,
+      columnNumber: 72
     }
   }), " ", __jsx("a", {
     className: "teal-text text-accent-1",
@@ -285,70 +339,13 @@ const index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 86
+      lineNumber: 27,
+      columnNumber: 78
     }
-  }, "Steam : MightyPhoenix7"))))), __jsx("div", {
-    className: "section",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 13
-    }
-  }, __jsx("div", {
-    className: "row container valign-wrapper jumbo2 white-text",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 17
-    }
-  }, __jsx("div", {
-    className: "hide-on-med-and-down col l6 s12",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 21
-    }
-  }, __jsx("h1", {
-    className: "center font-caveat",
-    style: {
-      fontSize: "180px"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 25
-    }
-  }, "Skills")), __jsx("div", {
-    className: "col l6 s12",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59,
-      columnNumber: 21
-    }
-  }, __jsx(_src_Skills_Skills__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60,
-      columnNumber: 25
-    }
-  }))))), __jsx(_src_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65,
-      columnNumber: 5
-    }
-  }));
+  }, "Steam : MightyPhoenix7"))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (index);
+/* harmony default export */ __webpack_exports__["default"] = (Bio);
 
 /***/ }),
 
@@ -707,6 +704,100 @@ const Navbar = props => {
 
 /***/ }),
 
+/***/ "./src/Skills/SkillData.js":
+/*!*********************************!*\
+  !*** ./src/Skills/SkillData.js ***!
+  \*********************************/
+/*! exports provided: SkillData */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SkillData", function() { return SkillData; });
+const SkillData = [{
+  skillName: "JavaScript (ES6)",
+  imgLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+  skillLevel: "Intermidiate",
+  skillProgress: {
+    width: "80%",
+    color1: "determinate yellow darken-1",
+    color2: "progress white"
+  },
+  grade: 4
+}, {
+  skillName: "React JS",
+  imgLink: "https://codeguida.com/media/post_title/React.js_logo.svg_fjk2YxB.png",
+  skillLevel: "Intermidiate",
+  skillProgress: {
+    width: "60%",
+    color1: "determinate cyan",
+    color2: "progress white"
+  },
+  grade: 5
+}, {
+  skillName: "Python3",
+  imgLink: "https://pythonprogramming.net/static/images/finance/python-programming-language.png",
+  skillLevel: "Intermidiate",
+  skillProgress: {
+    width: "75%",
+    color1: "determinate light-blue",
+    color2: "progress white"
+  },
+  grade: 4
+}, {
+  skillName: "C/C++",
+  imgLink: "https://sdtimes.com/wp-content/uploads/2018/03/cpppp.png",
+  skillLevel: "Advanced",
+  skillProgress: {
+    width: "70%",
+    color1: "determinate deep-purple",
+    color2: "progress white"
+  },
+  grade: 5
+}, {
+  skillName: "Firebase",
+  imgLink: "https://avatars0.githubusercontent.com/u/1335026?v=3&s=280",
+  skillLevel: "Beginner",
+  skillProgress: {
+    width: "45%",
+    color1: "determinate amber darken-2",
+    color2: "progress white"
+  },
+  grade: 3
+}, {
+  skillName: "MongoDB",
+  imgLink: "https://media.glassdoor.com/sqll/433703/mongodb-squarelogo-1407269491216.png",
+  skillLevel: "Advanced",
+  skillProgress: {
+    width: "85%",
+    color1: "determinate green darken-1",
+    color2: "progress white"
+  },
+  grade: 5
+}, {
+  skillName: "HTML5",
+  imgLink: "https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png",
+  skillLevel: "Expert",
+  skillProgress: {
+    width: "95%",
+    color1: "determinate orange",
+    color2: "progress white"
+  },
+  grade: 4
+}, {
+  skillName: "CSS3",
+  imgLink: "https://maxcdn.icons8.com/Share/icon/Logos/css31600.png",
+  skillLevel: "Expert",
+  skillProgress: {
+    width: "95%",
+    color1: "determinate orange",
+    color2: "progress white"
+  },
+  grade: 4
+}];
+
+/***/ }),
+
 /***/ "./src/Skills/Skills.js":
 /*!******************************!*\
   !*** ./src/Skills/Skills.js ***!
@@ -718,18 +809,55 @@ const Navbar = props => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _SkillData__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SkillData */ "./src/Skills/SkillData.js");
 var _jsxFileName = "D:\\projects\\agnibesh.dev\\src\\Skills\\Skills.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+
 const Skills = () => {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
+  return __jsx("div", {
+    className: "row container valign-wrapper jumbo2 white-text",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "hide-on-med-and-down col l6 s12",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 13
+    }
+  }, __jsx("h1", {
+    className: "center font-caveat",
+    style: {
+      fontSize: "180px"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 17
+    }
+  }, "Skills")), __jsx("div", {
+    className: "col l6 s12",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
     className: "hide-on-large-only hide-on-extra-large-only",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 9
+      lineNumber: 12,
+      columnNumber: 17
     }
   }, __jsx("h1", {
     style: {
@@ -740,8 +868,8 @@ const Skills = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 13
+      lineNumber: 13,
+      columnNumber: 21
     }
   }, "Skills")), __jsx("ul", {
     className: "collection transparent flow-text",
@@ -752,438 +880,118 @@ const Skills = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 9
-    }
-  }, __jsx("li", {
-    className: "collection-item avatar transparent",
-    style: {
-      borderColor: "transparent"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "https://codeguida.com/media/post_title/React.js_logo.svg_fjk2YxB.png",
-    alt: "react",
-    className: "circle responsive-img",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 17
-    }
-  }), __jsx("span", {
-    className: "title font-neucha",
-    style: {
-      fontSize: "26px"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 17
-    }
-  }, "React JS"), __jsx("p", {
-    className: "font-vt",
-    style: {
-      fontSize: "22px",
-      padding: "5px 0px"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 17
-    }
-  }, "Intermidiate", __jsx("br", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 97
-    }
-  }), __jsx("div", {
-    className: "progress",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "determinate",
-    style: {
-      width: "60%"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 15,
-      columnNumber: 25
-    }
-  }))), __jsx("a", {
-    href: "#!",
-    className: "secondary-content yellow-text text-darken-1",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
       columnNumber: 17
     }
-  }, __jsx("i", {
-    className: "material-icons",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 21
-    }
-  }, "grade"), __jsx("i", {
-    className: "material-icons",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 21
-    }
-  }, "grade"), __jsx("i", {
-    className: "material-icons",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 21
-    }
-  }, "grade"))), __jsx("li", {
-    className: "collection-item avatar transparent",
-    style: {
-      borderColor: "transparent"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
-    alt: "js",
-    className: "circle responsive-img",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 17
-    }
-  }), __jsx("span", {
-    className: "title font-neucha",
-    style: {
-      fontSize: "26px"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 17
-    }
-  }, "JavaScript (ES6)"), __jsx("p", {
-    className: "font-vt",
-    style: {
-      fontSize: "22px",
-      padding: "5px 0px"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 17
-    }
-  }, "Intermidiate", __jsx("br", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 97
-    }
-  }), __jsx("div", {
-    className: "progress",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "determinate",
-    style: {
-      width: "80%"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 25
-    }
-  }))), __jsx("a", {
-    href: "#!",
-    className: "secondary-content yellow-text text-darken-1",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 17
-    }
-  }, __jsx("i", {
-    className: "material-icons",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 21
-    }
-  }, "grade"), __jsx("i", {
-    className: "material-icons",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 21
-    }
-  }, "grade"), __jsx("i", {
-    className: "material-icons",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 21
-    }
-  }, "grade"), __jsx("i", {
-    className: "material-icons",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 21
-    }
-  }, "grade"))), __jsx("li", {
-    className: "collection-item avatar transparent",
-    style: {
-      borderColor: "transparent"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "https://pythonprogramming.net/static/images/finance/python-programming-language.png",
-    alt: "py",
-    className: "circle responsive-img",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 17
-    }
-  }), __jsx("span", {
-    className: "title font-neucha",
-    style: {
-      fontSize: "26px"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 17
-    }
-  }, "Python3"), __jsx("p", {
-    className: "font-vt",
-    style: {
-      fontSize: "22px",
-      padding: "5px 0px"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 17
-    }
-  }, "Intermidiate", __jsx("br", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 97
-    }
-  }), __jsx("div", {
-    className: "progress",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "determinate",
-    style: {
-      width: "75%"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 25
-    }
-  }))), __jsx("a", {
-    href: "#!",
-    className: "secondary-content yellow-text text-darken-1",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 17
-    }
-  }, __jsx("i", {
-    className: "material-icons",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 21
-    }
-  }, "grade"), __jsx("i", {
-    className: "material-icons",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 21
-    }
-  }, "grade"), __jsx("i", {
-    className: "material-icons",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 21
-    }
-  }, "grade"), __jsx("i", {
-    className: "material-icons",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 21
-    }
-  }, "grade"))), __jsx("li", {
-    className: "collection-item avatar transparent",
-    style: {
-      borderColor: "transparent"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "https://avatars0.githubusercontent.com/u/1335026?v=3&s=280",
-    alt: "fire",
-    className: "circle responsive-img",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 17
-    }
-  }), __jsx("span", {
-    className: "title font-neucha",
-    style: {
-      fontSize: "26px"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 17
-    }
-  }, "Firebase"), __jsx("p", {
-    className: "font-vt",
-    style: {
-      fontSize: "22px",
-      padding: "5px 0px"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 17
-    }
-  }, "Begineer", __jsx("br", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 93
-    }
-  }), __jsx("div", {
-    className: "progress",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "determinate",
-    style: {
-      width: "45%"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59,
-      columnNumber: 25
-    }
-  }))), __jsx("a", {
-    href: "#!",
-    className: "secondary-content yellow-text text-darken-1",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62,
-      columnNumber: 17
-    }
-  }, __jsx("i", {
-    className: "material-icons",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63,
-      columnNumber: 21
-    }
-  }, "grade"), __jsx("i", {
-    className: "material-icons",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64,
-      columnNumber: 21
-    }
-  }, "grade"), __jsx("i", {
-    className: "material-icons",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65,
-      columnNumber: 21
-    }
-  }, "grade")))));
+  }, _SkillData__WEBPACK_IMPORTED_MODULE_1__["SkillData"].map(skill => {
+    return __jsx("li", {
+      key: skill.skillName,
+      className: "collection-item avatar transparent",
+      style: {
+        borderColor: "transparent"
+      },
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 29
+      }
+    }, __jsx("img", {
+      src: skill.imgLink,
+      alt: skill.skillName,
+      className: "circle responsive-img",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19,
+        columnNumber: 33
+      }
+    }), __jsx("span", {
+      className: "title font-neucha",
+      style: {
+        fontSize: "24px"
+      },
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20,
+        columnNumber: 33
+      }
+    }, skill.skillName), __jsx("p", {
+      className: "font-vt",
+      style: {
+        fontSize: "22px",
+        padding: "5px 0px"
+      },
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21,
+        columnNumber: 33
+      }
+    }, skill.skillLevel, __jsx("br", {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21,
+        columnNumber: 119
+      }
+    }), __jsx("div", {
+      className: skill.skillProgress.color2,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22,
+        columnNumber: 37
+      }
+    }, __jsx("div", {
+      className: skill.skillProgress.color1,
+      style: {
+        width: skill.skillProgress.width
+      },
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23,
+        columnNumber: 41
+      }
+    }))), __jsx("a", {
+      href: "#!",
+      className: "secondary-content yellow-text text-darken-1",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26,
+        columnNumber: 33
+      }
+    }, __jsx(Stars, {
+      n: skill.grade,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27,
+        columnNumber: 37
+      }
+    })));
+  }))));
+};
+
+const Stars = props => {
+  let content = [];
+
+  for (let i = 0; i < props.n; i++) {
+    content.push(__jsx("i", {
+      className: "material-icons",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41,
+        columnNumber: 22
+      }
+    }, "grade"));
+  }
+
+  return content;
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Skills);
