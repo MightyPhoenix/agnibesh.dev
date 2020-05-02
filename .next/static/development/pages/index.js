@@ -24282,15 +24282,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_particles_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-particles-js */ "./node_modules/react-particles-js/index.js");
 /* harmony import */ var react_particles_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_particles_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _src_HEAD_HEAD__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/HEAD/HEAD */ "./src/HEAD/HEAD.js");
-/* harmony import */ var _src_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/Navbar/Navbar */ "./src/Navbar/Navbar.js");
-/* harmony import */ var _src_Footer_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/Footer/Footer */ "./src/Footer/Footer.js");
-/* harmony import */ var _src_Skills_Skills__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/Skills/Skills */ "./src/Skills/Skills.js");
-/* harmony import */ var _src_Bio_Bio__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../src/Bio/Bio */ "./src/Bio/Bio.js");
+/* harmony import */ var _src_ParticleParams__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/ParticleParams */ "./src/ParticleParams.js");
+/* harmony import */ var _src_HEAD_HEAD__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/HEAD/HEAD */ "./src/HEAD/HEAD.js");
+/* harmony import */ var _src_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/Navbar/Navbar */ "./src/Navbar/Navbar.js");
+/* harmony import */ var _src_Footer_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/Footer/Footer */ "./src/Footer/Footer.js");
+/* harmony import */ var _src_Skills_Skills__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../src/Skills/Skills */ "./src/Skills/Skills.js");
+/* harmony import */ var _src_Bio_Bio__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../src/Bio/Bio */ "./src/Bio/Bio.js");
 var _this = undefined,
     _jsxFileName = "D:\\projects\\agnibesh.dev\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -24328,30 +24330,30 @@ var index = function index() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 29,
       columnNumber: 5
     }
-  }, __jsx(_src_HEAD_HEAD__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, __jsx(_src_HEAD_HEAD__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "A.dev",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 30,
       columnNumber: 9
     }
-  }), __jsx(_src_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), __jsx(_src_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_4__["default"], {
     NavItems: Nav,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 32,
       columnNumber: 9
     }
   }), __jsx("main", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 34,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -24359,14 +24361,14 @@ var index = function index() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 35,
       columnNumber: 13
     }
-  }, __jsx(_src_Bio_Bio__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, __jsx(_src_Bio_Bio__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 36,
       columnNumber: 17
     }
   })), __jsx("div", {
@@ -24374,299 +24376,35 @@ var index = function index() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 38,
       columnNumber: 13
     }
-  }, __jsx(_src_Skills_Skills__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx(_src_Skills_Skills__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 39,
       columnNumber: 17
     }
-  }))), __jsx(_src_Footer_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 5
-    }
-  }), __jsx(react_particles_js__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    params: params,
-    id: "particles",
+  }))), __jsx(_src_Footer_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44,
+      columnNumber: 5
+    }
+  }), __jsx(react_particles_js__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    params: _src_ParticleParams__WEBPACK_IMPORTED_MODULE_2__["Params"],
+    id: "particles",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
       columnNumber: 9
     }
   }));
 };
 
-var params = {
-  "absorbers": [],
-  "background": {},
-  "backgroundMask": {
-    "cover": {
-      "color": {
-        "value": "#fff"
-      },
-      "opacity": 1
-    },
-    "enable": false
-  },
-  "detectRetina": true,
-  "emitters": [],
-  "fpsLimit": 60,
-  "interactivity": {
-    "detectsOn": "canvas",
-    "events": {
-      "onClick": {
-        "enable": true,
-        "mode": "repulse"
-      },
-      "onDiv": {
-        "elementId": "",
-        "enable": false,
-        "mode": []
-      },
-      "onHover": {
-        "enable": true,
-        "mode": "bubble",
-        "parallax": {
-          "enable": false,
-          "force": 2,
-          "smooth": 10
-        }
-      },
-      "resize": true
-    },
-    "modes": {
-      "absorbers": [],
-      "bubble": {
-        "distance": 250,
-        "duration": 2,
-        "opacity": 0,
-        "size": 0
-      },
-      "connect": {
-        "distance": 80,
-        "lineLinked": {
-          "opacity": 0.5
-        },
-        "radius": 60
-      },
-      "emitters": [],
-      "grab": {
-        "distance": 400,
-        "lineLinked": {
-          "opacity": 1
-        }
-      },
-      "push": {
-        "quantity": 4
-      },
-      "remove": {
-        "quantity": 2
-      },
-      "repulse": {
-        "distance": 400,
-        "duration": 0.4,
-        "speed": 1
-      },
-      "slow": {
-        "factor": 3,
-        "radius": 200
-      }
-    }
-  },
-  "particles": {
-    "collisions": {
-      "enable": false,
-      "mode": "bounce"
-    },
-    "color": {
-      "value": "#ffffff"
-    },
-    "lineLinked": {
-      "blink": false,
-      "color": {
-        "value": "#ffffff"
-      },
-      "consent": false,
-      "distance": 150,
-      "enable": false,
-      "opacity": 0.4,
-      "shadow": {
-        "blur": 5,
-        "color": {
-          "value": "lime"
-        },
-        "enable": false
-      },
-      "width": 1
-    },
-    "move": {
-      "attract": {
-        "enable": false,
-        "rotate": {
-          "x": 600,
-          "y": 600
-        }
-      },
-      "direction": "none",
-      "enable": true,
-      "outMode": "out",
-      "random": true,
-      "speed": 1,
-      "straight": false,
-      "trail": {
-        "enable": false,
-        "length": 10,
-        "fillColor": {
-          "value": "#000000"
-        }
-      }
-    },
-    "number": {
-      "density": {
-        "enable": true,
-        "area": 800
-      },
-      "limit": 0,
-      "value": 160
-    },
-    "opacity": {
-      "animation": {
-        "enable": true,
-        "minimumValue": 0,
-        "speed": 1,
-        "sync": false
-      },
-      "random": {
-        "enable": true,
-        "minimumValue": 1
-      },
-      "value": 1
-    },
-    "rotate": {
-      "animation": {
-        "enable": false,
-        "speed": 0,
-        "sync": false
-      },
-      "direction": "clockwise",
-      "random": false,
-      "value": 0
-    },
-    "shadow": {
-      "blur": 0,
-      "color": {
-        "value": "#000000"
-      },
-      "enable": false,
-      "offset": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    "shape": {
-      "options": {
-        "character": {
-          "fill": true,
-          "close": true,
-          "font": "Verdana",
-          "style": "",
-          "value": "*",
-          "weight": "400"
-        },
-        "char": {
-          "fill": true,
-          "close": true,
-          "font": "Verdana",
-          "style": "",
-          "value": "*",
-          "weight": "400"
-        },
-        "polygon": {
-          "fill": true,
-          "close": true,
-          "sides": 5
-        },
-        "star": {
-          "fill": true,
-          "close": true,
-          "sides": 5
-        }
-      },
-      "image": {
-        "fill": true,
-        "close": true,
-        "height": 100,
-        "replaceColor": true,
-        "src": "https://cdn.matteobruni.it/images/particles/github.svg",
-        "width": 100
-      },
-      "type": "circle"
-    },
-    "size": {
-      "animation": {
-        "enable": false,
-        "minimumValue": 0.3,
-        "speed": 4,
-        "sync": false
-      },
-      "random": {
-        "enable": true,
-        "minimumValue": 1
-      },
-      "value": 3
-    },
-    "stroke": {
-      "color": {
-        "value": "#000000"
-      },
-      "width": 0,
-      "opacity": 1
-    },
-    "twinkle": {
-      "lines": {
-        "enable": false,
-        "frequency": 0.05,
-        "opacity": 1
-      },
-      "particles": {
-        "enable": false,
-        "frequency": 0.05,
-        "opacity": 1
-      }
-    }
-  },
-  "pauseOnBlur": true,
-  "polygon": {
-    "draw": {
-      "enable": false,
-      "stroke": {
-        "color": {
-          "value": "#fff"
-        },
-        "width": 0.5,
-        "opacity": 1
-      }
-    },
-    "enable": false,
-    "inline": {
-      "arrangement": "one-per-point"
-    },
-    "move": {
-      "radius": 10,
-      "type": "path"
-    },
-    "scale": 1,
-    "type": "none",
-    "url": ""
-  }
-};
 /* harmony default export */ __webpack_exports__["default"] = (index);
 
 /***/ }),
@@ -25168,6 +24906,283 @@ var Navbar = function Navbar(props) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
+
+/***/ }),
+
+/***/ "./src/ParticleParams.js":
+/*!*******************************!*\
+  !*** ./src/ParticleParams.js ***!
+  \*******************************/
+/*! exports provided: Params */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Params", function() { return Params; });
+var Params = {
+  "absorbers": [],
+  "background": {},
+  "backgroundMask": {
+    "cover": {
+      "color": {
+        "value": "#fff"
+      },
+      "opacity": 1
+    },
+    "enable": false
+  },
+  "detectRetina": true,
+  "emitters": [],
+  "fpsLimit": 60,
+  "interactivity": {
+    "detectsOn": "canvas",
+    "events": {
+      "onClick": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onDiv": {
+        "elementId": "",
+        "enable": false,
+        "mode": []
+      },
+      "onHover": {
+        "enable": true,
+        "mode": "bubble",
+        "parallax": {
+          "enable": false,
+          "force": 2,
+          "smooth": 10
+        }
+      },
+      "resize": true
+    },
+    "modes": {
+      "absorbers": [],
+      "bubble": {
+        "distance": 250,
+        "duration": 2,
+        "opacity": 0,
+        "size": 0
+      },
+      "connect": {
+        "distance": 80,
+        "lineLinked": {
+          "opacity": 0.5
+        },
+        "radius": 60
+      },
+      "emitters": [],
+      "grab": {
+        "distance": 400,
+        "lineLinked": {
+          "opacity": 1
+        }
+      },
+      "push": {
+        "quantity": 4
+      },
+      "remove": {
+        "quantity": 2
+      },
+      "repulse": {
+        "distance": 400,
+        "duration": 0.4,
+        "speed": 1
+      },
+      "slow": {
+        "factor": 3,
+        "radius": 200
+      }
+    }
+  },
+  "particles": {
+    "collisions": {
+      "enable": false,
+      "mode": "bounce"
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "lineLinked": {
+      "blink": false,
+      "color": {
+        "value": "#ffffff"
+      },
+      "consent": false,
+      "distance": 150,
+      "enable": false,
+      "opacity": 0.4,
+      "shadow": {
+        "blur": 5,
+        "color": {
+          "value": "lime"
+        },
+        "enable": false
+      },
+      "width": 1
+    },
+    "move": {
+      "attract": {
+        "enable": false,
+        "rotate": {
+          "x": 600,
+          "y": 600
+        }
+      },
+      "direction": "none",
+      "enable": true,
+      "outMode": "out",
+      "random": true,
+      "speed": 1,
+      "straight": false,
+      "trail": {
+        "enable": false,
+        "length": 10,
+        "fillColor": {
+          "value": "#000000"
+        }
+      }
+    },
+    "number": {
+      "density": {
+        "enable": true,
+        "area": 800
+      },
+      "limit": 0,
+      "value": 160
+    },
+    "opacity": {
+      "animation": {
+        "enable": true,
+        "minimumValue": 0,
+        "speed": 1,
+        "sync": false
+      },
+      "random": {
+        "enable": true,
+        "minimumValue": 1
+      },
+      "value": 1
+    },
+    "rotate": {
+      "animation": {
+        "enable": false,
+        "speed": 0,
+        "sync": false
+      },
+      "direction": "clockwise",
+      "random": false,
+      "value": 0
+    },
+    "shadow": {
+      "blur": 0,
+      "color": {
+        "value": "#000000"
+      },
+      "enable": false,
+      "offset": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "shape": {
+      "options": {
+        "character": {
+          "fill": true,
+          "close": true,
+          "font": "Verdana",
+          "style": "",
+          "value": "*",
+          "weight": "400"
+        },
+        "char": {
+          "fill": true,
+          "close": true,
+          "font": "Verdana",
+          "style": "",
+          "value": "*",
+          "weight": "400"
+        },
+        "polygon": {
+          "fill": true,
+          "close": true,
+          "sides": 5
+        },
+        "star": {
+          "fill": true,
+          "close": true,
+          "sides": 5
+        }
+      },
+      "image": {
+        "fill": true,
+        "close": true,
+        "height": 100,
+        "replaceColor": true,
+        "src": "https://cdn.matteobruni.it/images/particles/github.svg",
+        "width": 100
+      },
+      "type": "circle"
+    },
+    "size": {
+      "animation": {
+        "enable": false,
+        "minimumValue": 0.3,
+        "speed": 4,
+        "sync": false
+      },
+      "random": {
+        "enable": true,
+        "minimumValue": 1
+      },
+      "value": 3
+    },
+    "stroke": {
+      "color": {
+        "value": "#000000"
+      },
+      "width": 0,
+      "opacity": 1
+    },
+    "twinkle": {
+      "lines": {
+        "enable": false,
+        "frequency": 0.05,
+        "opacity": 1
+      },
+      "particles": {
+        "enable": false,
+        "frequency": 0.05,
+        "opacity": 1
+      }
+    }
+  },
+  "pauseOnBlur": true,
+  "polygon": {
+    "draw": {
+      "enable": false,
+      "stroke": {
+        "color": {
+          "value": "#fff"
+        },
+        "width": 0.5,
+        "opacity": 1
+      }
+    },
+    "enable": false,
+    "inline": {
+      "arrangement": "one-per-point"
+    },
+    "move": {
+      "radius": 10,
+      "type": "path"
+    },
+    "scale": 1,
+    "type": "none",
+    "url": ""
+  }
+};
 
 /***/ }),
 
