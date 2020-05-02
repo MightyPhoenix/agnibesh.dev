@@ -9,7 +9,7 @@ const Navbar = (props) => {
                 <a href="#" data-target="mobile-demo" className="sidenav-trigger right" style={{padding:"25px"}}><i className="material-icons">menu</i></a>
                 <ul id="nav-mobile" className="font-neucha flow-text right hide-on-med-and-down" style={{padding:"25px"}}>
                     {props.NavItems.map((item) => {
-                        return(<li><a href={item.link}>{item.name}</a></li>)
+                        return(<li key={item.name}><a href={item.link}>{item.name}</a></li>)
                     })}
                 </ul>
             </div>
@@ -23,7 +23,7 @@ const Navbar = (props) => {
                     <hr className="center" style={{width:"80%"}}/>
 
                     {props.NavItems.map((item) => {
-                        return(<li><a className="white-text" style={{fontSize:"32px", marginTop:"5px"}} href={item.link}>{item.name}</a></li>)
+                        return(<li key={item.name}><a className="white-text" style={{fontSize:"32px", marginTop:"5px"}} href={item.link}>{item.name}</a></li>)
                     })}
                 </div>
 

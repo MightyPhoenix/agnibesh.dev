@@ -1,11 +1,13 @@
 import React, {useEffect} from 'react';
-import Head from "next/head";
+
+import HEAD from "../src/HEAD/HEAD";
 import Navbar from '../src/Navbar/Navbar';
+import Footer from '../src/Footer/Footer';
+import Skills from "../src/Skills/Skills";
+
 if (typeof window !== 'undefined'){
    require('materialize-css');
 }
-
-import Footer from '../src/Footer/Footer';
 
 const index = () =>{
     const Nav = [{name: "Home", link: "/"},{name: "About", link: "/about"},{name: "Contact", link: "/contact"}];
@@ -16,23 +18,7 @@ const index = () =>{
     },[]);
     return (
     <div className="body">
-        <Head>
-            <meta charSet="UTF-8"/>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-            <meta name="theme-color" content="#000" />
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
-            <title>Agnibesh.dev</title>
-            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossOrigin="anonymous"/>
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossOrigin="anonymous"/>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossOrigin="anonymous"/>
-        </Head>
+        <HEAD title="Agnibesh.dev"/>
         {/*HEAD END*/}
         <Navbar NavItems={Nav}/>
         {/*NAV END*/}
@@ -46,18 +32,32 @@ const index = () =>{
                         <img width="60%" className="hide-on-large-only hide-on-extra-large-only circle responsive-img" style={{marginTop:"20px"}} src="/displaypicture.jpg" alt="myface"/>
                         <h1 className="h1 font-caveat">Agnibesh Mukherjee</h1>
                         <h4 className="h4 font-neucha"> Computer Enthusiast <span className="hide-on-small-and-down"> | </span> JavaScript Ninja </h4>
-                        <p className="flow-text font-neucha ">I grew up thinking computers were magical, and here I am making magic happen. I always like to create what I like for instance music, graphics, applications, videos and the Technology has provided me with the parallel applications to achieve that in my home computer i.e FL Studio, Photoshop, Adobe Premier Pro</p>
-                        <blockquote className="flow-text font-neucha">Didn't like much computer games but started with <a href="www.habbo.com">habbo.com</a> but as usual made a clone of that game too! But later on started an affection for FPS games.</blockquote>
+                        {/*<p className="flow-text font-neucha ">I grew up thinking computers were magical, and here I am making magic happen. I always like to create what I like for instance music, graphics, applications, videos and the Technology has provided me with the parallel applications to achieve that in my home computer i.e FL Studio, Photoshop, Adobe Premier Pro</p>*/}
+                        <p className="flow-text font-neucha ">
+                            The tech-support guy, neighborhood Facebook hacker.
+                            People refer to me as those, but I keep a keen interest in FullStack Development (MER/VN),
+                            Machine Learning, and Network Security areas.
+                            Actively strive in Hackathons and Techfest.
+                            Won ACM East India Hackathon 2020 with my Fabulous Team.
+                        </p>
+                        <p className="flow-text font-neucha">
+                            Apart from these I am a very meticulous listener and a leisurely learner because of perfectionism,
+                            have strong opinions mostly regarding everything.
+                            Also, an INFJ if that makes sense...
+                        </p>
+                        <blockquote className="black-border left-align flow-text font-neucha" style={{borderRadius:"3px"}}>
+                            Go to Games are Apex Legends, Destiny 2, DirtyBomb <br/> <a className="teal-text text-accent-1" href="https://steamcommunity.com/id/MightyPhoenix7">Steam : MightyPhoenix7</a>
+                        </blockquote>
                     </div>
                 </div>
             </div>
             <div className="section">
-                <div className="row white-text">
-                    <div className="col s12">
-                        <h3 className="center">Skills</h3>
+                <div className="row container valign-wrapper jumbo2 white-text">
+                    <div className="hide-on-med-and-down col l6 s12">
+                        <h1 className="center font-caveat" style={{fontSize:"180px"}}>Skills</h1>
                     </div>
-                    <div className="col s12">
-                        <h3 className="center">Skills</h3>
+                    <div className="col l6 s12">
+                        <Skills/>
                     </div>
                 </div>
             </div>
