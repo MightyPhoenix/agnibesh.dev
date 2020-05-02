@@ -28,6 +28,7 @@
     "next": "^9.3.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-particles-js": "^3.2.1",
     "sass": "^1.26.5"
   }
 }

@@ -104,13 +104,16 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _src_HEAD_HEAD__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/HEAD/HEAD */ "./src/HEAD/HEAD.js");
-/* harmony import */ var _src_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/Navbar/Navbar */ "./src/Navbar/Navbar.js");
-/* harmony import */ var _src_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/Footer/Footer */ "./src/Footer/Footer.js");
-/* harmony import */ var _src_Skills_Skills__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/Skills/Skills */ "./src/Skills/Skills.js");
-/* harmony import */ var _src_Bio_Bio__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/Bio/Bio */ "./src/Bio/Bio.js");
+/* harmony import */ var react_particles_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-particles-js */ "react-particles-js");
+/* harmony import */ var react_particles_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_particles_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _src_HEAD_HEAD__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/HEAD/HEAD */ "./src/HEAD/HEAD.js");
+/* harmony import */ var _src_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/Navbar/Navbar */ "./src/Navbar/Navbar.js");
+/* harmony import */ var _src_Footer_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/Footer/Footer */ "./src/Footer/Footer.js");
+/* harmony import */ var _src_Skills_Skills__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/Skills/Skills */ "./src/Skills/Skills.js");
+/* harmony import */ var _src_Bio_Bio__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../src/Bio/Bio */ "./src/Bio/Bio.js");
 var _jsxFileName = "D:\\projects\\agnibesh.dev\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -132,38 +135,43 @@ const index = () => {
     link: "/contact"
   }];
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems);
+    // var elems = document.querySelectorAll('.sidenav');
+    // var instances = M.Sidenav.init(elems);
+    // document.addEventListener('DOMContentLoaded', function() {
+    //     var elems = document.querySelectorAll('.parallax');
+    //     var instance = M.Parallax.init(elems);
+    // });
+    M.AutoInit();
   }, []);
   return __jsx("div", {
     className: "body",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 28,
       columnNumber: 5
     }
-  }, __jsx(_src_HEAD_HEAD__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "Agnibesh.dev",
+  }, __jsx(_src_HEAD_HEAD__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "A.dev",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 29,
       columnNumber: 9
     }
-  }), __jsx(_src_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), __jsx(_src_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"], {
     NavItems: Nav,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 31,
       columnNumber: 9
     }
   }), __jsx("main", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 33,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -171,14 +179,14 @@ const index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 34,
       columnNumber: 13
     }
-  }, __jsx(_src_Bio_Bio__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx(_src_Bio_Bio__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 35,
       columnNumber: 17
     }
   })), __jsx("div", {
@@ -186,26 +194,299 @@ const index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 37,
       columnNumber: 13
     }
-  }, __jsx(_src_Skills_Skills__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, __jsx(_src_Skills_Skills__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 38,
       columnNumber: 17
     }
-  }))), __jsx(_src_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }))), __jsx(_src_Footer_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 43,
       columnNumber: 5
+    }
+  }), __jsx(react_particles_js__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    params: params,
+    id: "particles",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 9
     }
   }));
 };
 
+let params = {
+  "absorbers": [],
+  "background": {},
+  "backgroundMask": {
+    "cover": {
+      "color": {
+        "value": "#fff"
+      },
+      "opacity": 1
+    },
+    "enable": false
+  },
+  "detectRetina": true,
+  "emitters": [],
+  "fpsLimit": 60,
+  "interactivity": {
+    "detectsOn": "canvas",
+    "events": {
+      "onClick": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onDiv": {
+        "elementId": "",
+        "enable": false,
+        "mode": []
+      },
+      "onHover": {
+        "enable": true,
+        "mode": "bubble",
+        "parallax": {
+          "enable": false,
+          "force": 2,
+          "smooth": 10
+        }
+      },
+      "resize": true
+    },
+    "modes": {
+      "absorbers": [],
+      "bubble": {
+        "distance": 250,
+        "duration": 2,
+        "opacity": 0,
+        "size": 0
+      },
+      "connect": {
+        "distance": 80,
+        "lineLinked": {
+          "opacity": 0.5
+        },
+        "radius": 60
+      },
+      "emitters": [],
+      "grab": {
+        "distance": 400,
+        "lineLinked": {
+          "opacity": 1
+        }
+      },
+      "push": {
+        "quantity": 4
+      },
+      "remove": {
+        "quantity": 2
+      },
+      "repulse": {
+        "distance": 400,
+        "duration": 0.4,
+        "speed": 1
+      },
+      "slow": {
+        "factor": 3,
+        "radius": 200
+      }
+    }
+  },
+  "particles": {
+    "collisions": {
+      "enable": false,
+      "mode": "bounce"
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "lineLinked": {
+      "blink": false,
+      "color": {
+        "value": "#ffffff"
+      },
+      "consent": false,
+      "distance": 150,
+      "enable": false,
+      "opacity": 0.4,
+      "shadow": {
+        "blur": 5,
+        "color": {
+          "value": "lime"
+        },
+        "enable": false
+      },
+      "width": 1
+    },
+    "move": {
+      "attract": {
+        "enable": false,
+        "rotate": {
+          "x": 600,
+          "y": 600
+        }
+      },
+      "direction": "none",
+      "enable": true,
+      "outMode": "out",
+      "random": true,
+      "speed": 1,
+      "straight": false,
+      "trail": {
+        "enable": false,
+        "length": 10,
+        "fillColor": {
+          "value": "#000000"
+        }
+      }
+    },
+    "number": {
+      "density": {
+        "enable": true,
+        "area": 800
+      },
+      "limit": 0,
+      "value": 160
+    },
+    "opacity": {
+      "animation": {
+        "enable": true,
+        "minimumValue": 0,
+        "speed": 1,
+        "sync": false
+      },
+      "random": {
+        "enable": true,
+        "minimumValue": 1
+      },
+      "value": 1
+    },
+    "rotate": {
+      "animation": {
+        "enable": false,
+        "speed": 0,
+        "sync": false
+      },
+      "direction": "clockwise",
+      "random": false,
+      "value": 0
+    },
+    "shadow": {
+      "blur": 0,
+      "color": {
+        "value": "#000000"
+      },
+      "enable": false,
+      "offset": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "shape": {
+      "options": {
+        "character": {
+          "fill": true,
+          "close": true,
+          "font": "Verdana",
+          "style": "",
+          "value": "*",
+          "weight": "400"
+        },
+        "char": {
+          "fill": true,
+          "close": true,
+          "font": "Verdana",
+          "style": "",
+          "value": "*",
+          "weight": "400"
+        },
+        "polygon": {
+          "fill": true,
+          "close": true,
+          "sides": 5
+        },
+        "star": {
+          "fill": true,
+          "close": true,
+          "sides": 5
+        }
+      },
+      "image": {
+        "fill": true,
+        "close": true,
+        "height": 100,
+        "replaceColor": true,
+        "src": "https://cdn.matteobruni.it/images/particles/github.svg",
+        "width": 100
+      },
+      "type": "circle"
+    },
+    "size": {
+      "animation": {
+        "enable": false,
+        "minimumValue": 0.3,
+        "speed": 4,
+        "sync": false
+      },
+      "random": {
+        "enable": true,
+        "minimumValue": 1
+      },
+      "value": 3
+    },
+    "stroke": {
+      "color": {
+        "value": "#000000"
+      },
+      "width": 0,
+      "opacity": 1
+    },
+    "twinkle": {
+      "lines": {
+        "enable": false,
+        "frequency": 0.05,
+        "opacity": 1
+      },
+      "particles": {
+        "enable": false,
+        "frequency": 0.05,
+        "opacity": 1
+      }
+    }
+  },
+  "pauseOnBlur": true,
+  "polygon": {
+    "draw": {
+      "enable": false,
+      "stroke": {
+        "color": {
+          "value": "#fff"
+        },
+        "width": 0.5,
+        "opacity": 1
+      }
+    },
+    "enable": false,
+    "inline": {
+      "arrangement": "one-per-point"
+    },
+    "move": {
+      "radius": 10,
+      "type": "path"
+    },
+    "scale": 1,
+    "type": "none",
+    "url": ""
+  }
+};
 /* harmony default export */ __webpack_exports__["default"] = (index);
 
 /***/ }),
@@ -221,8 +502,10 @@ const index = () => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _BioData__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BioData */ "./src/Bio/BioData.js");
 var _jsxFileName = "D:\\projects\\agnibesh.dev\\src\\Bio\\Bio.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 const Bio = () => {
@@ -231,7 +514,7 @@ const Bio = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 6,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -239,18 +522,18 @@ const Bio = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 7,
       columnNumber: 13
     }
   }, __jsx("img", {
     width: "95%",
     className: "circle responsive-img",
-    src: "/displaypicture.jpg",
+    src: _BioData__WEBPACK_IMPORTED_MODULE_1__["BioData"].img,
     alt: "myface",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 8,
       columnNumber: 17
     }
   })), __jsx("div", {
@@ -258,7 +541,7 @@ const Bio = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 10,
       columnNumber: 13
     }
   }, __jsx("img", {
@@ -272,7 +555,7 @@ const Bio = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 11,
       columnNumber: 17
     }
   }), __jsx("h1", {
@@ -280,42 +563,36 @@ const Bio = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 12,
       columnNumber: 17
     }
-  }, "Agnibesh Mukherjee"), __jsx("h4", {
+  }, _BioData__WEBPACK_IMPORTED_MODULE_1__["BioData"].Name), __jsx("h4", {
     className: "h4 font-neucha",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 13,
       columnNumber: 17
     }
-  }, " Computer Enthusiast ", __jsx("span", {
+  }, " ", _BioData__WEBPACK_IMPORTED_MODULE_1__["BioData"].tagLine[0], "  ", __jsx("span", {
     className: "hide-on-small-and-down",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 69
+      lineNumber: 13,
+      columnNumber: 71
     }
-  }, " | "), " JavaScript Ninja "), __jsx("p", {
-    className: "flow-text font-neucha ",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 17
-    }
-  }, "The tech-support guy, neighborhood Facebook hacker. People refer to me as those, but I keep a keen interest in FullStack Development (MER/VN), Machine Learning, and Network Security areas. Actively strive in Hackathons and Techfest. Won ACM East India Hackathon 2020 with my Fabulous Team."), __jsx("p", {
-    className: "flow-text font-neucha",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 17
-    }
-  }, "Apart from these I am a very meticulous listener and a leisurely learner because of perfectionism, have strong opinions mostly regarding everything. Also, an INFJ if that makes sense..."), __jsx("blockquote", {
+  }, " | "), " ", _BioData__WEBPACK_IMPORTED_MODULE_1__["BioData"].tagLine[1], " "), _BioData__WEBPACK_IMPORTED_MODULE_1__["BioData"].paragraphs.map(para => {
+    return __jsx("p", {
+      className: "flow-text font-neucha ",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 25
+      }
+    }, para);
+  }), __jsx("blockquote", {
     className: "black-border left-align flow-text font-neucha",
     style: {
       borderRadius: "3px"
@@ -323,14 +600,14 @@ const Bio = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 20,
       columnNumber: 17
     }
   }, "Go to Games are Apex Legends, Destiny 2, DirtyBomb ", __jsx("br", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 21,
       columnNumber: 72
     }
   }), " ", __jsx("a", {
@@ -339,13 +616,38 @@ const Bio = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 21,
       columnNumber: 78
     }
   }, "Steam : MightyPhoenix7"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Bio);
+
+/***/ }),
+
+/***/ "./src/Bio/BioData.js":
+/*!****************************!*\
+  !*** ./src/Bio/BioData.js ***!
+  \****************************/
+/*! exports provided: BioData */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BioData", function() { return BioData; });
+const BioData = {
+  Name: "Agnibesh Mukherjee",
+  img: "/displaypicture.jpg",
+  tagLine: ["Computer Enthusiast", "JavaScript Ninja"],
+  paragraphs: [`The tech-support guy, neighborhood Facebook hacker.
+                    People refer to me as those, but I keep a keen interest in FullStack Development (MER/VN),
+                    Machine Learning, and Network Security areas.
+                    Actively strive in Hackathons and Techfest.
+                    Won ACM East India Hackathon 2020 with my Fabulous Team.`, `Apart from these I am a very meticulous listener and a leisurely learner because of perfectionism,
+                    have strong opinions mostly regarding everything.
+                    Also, an INFJ if that makes sense...`]
+};
 
 /***/ }),
 
@@ -366,7 +668,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const Footer = () => {
   return __jsx("footer", {
-    className: "page-footer transparent",
+    className: "page-footer black",
+    style: {
+      zIndex: "1000"
+    },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -485,32 +790,10 @@ const HEAD = props => {
     }
   }), __jsx("script", {
     src: "https://code.jquery.com/jquery-3.4.1.slim.min.js",
-    integrity: "sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n",
-    crossOrigin: "anonymous",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
-      columnNumber: 13
-    }
-  }), __jsx("script", {
-    src: "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js",
-    integrity: "sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo",
-    crossOrigin: "anonymous",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 13
-    }
-  }), __jsx("script", {
-    src: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
-    integrity: "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6",
-    crossOrigin: "anonymous",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
       columnNumber: 13
     }
   }));
@@ -539,12 +822,14 @@ const Navbar = props => {
   return __jsx("div", {
     style: {
       padding: "0px",
-      margin: "0px"
+      margin: "0px",
+      backgroundColor: "none",
+      zIndex: "1000"
     },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 6,
       columnNumber: 9
     }
   }, __jsx("nav", {
@@ -552,7 +837,7 @@ const Navbar = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 7,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -560,7 +845,7 @@ const Navbar = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 8,
       columnNumber: 13
     }
   }, __jsx("a", {
@@ -572,7 +857,7 @@ const Navbar = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 9,
       columnNumber: 17
     }
   }, "Agnibesh.DeV"), __jsx("a", {
@@ -585,7 +870,7 @@ const Navbar = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 10,
       columnNumber: 17
     }
   }, __jsx("i", {
@@ -593,7 +878,7 @@ const Navbar = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 10,
       columnNumber: 114
     }
   }, "menu")), __jsx("ul", {
@@ -605,7 +890,7 @@ const Navbar = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 11,
       columnNumber: 17
     }
   }, props.NavItems.map(item => {
@@ -614,7 +899,7 @@ const Navbar = props => {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12,
+        lineNumber: 13,
         columnNumber: 32
       }
     }, __jsx("a", {
@@ -622,7 +907,7 @@ const Navbar = props => {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12,
+        lineNumber: 13,
         columnNumber: 52
       }
     }, item.name));
@@ -632,7 +917,7 @@ const Navbar = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 19,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -642,14 +927,14 @@ const Navbar = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 20,
       columnNumber: 17
     }
   }, __jsx("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 21,
       columnNumber: 21
     }
   }, __jsx("h5", {
@@ -660,7 +945,7 @@ const Navbar = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 22,
       columnNumber: 25
     }
   }, "Agnibesh.DeV")), __jsx("hr", {
@@ -671,7 +956,7 @@ const Navbar = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 24,
       columnNumber: 21
     }
   }), props.NavItems.map(item => {
@@ -680,7 +965,7 @@ const Navbar = props => {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26,
+        lineNumber: 27,
         columnNumber: 32
       }
     }, __jsx("a", {
@@ -693,7 +978,7 @@ const Navbar = props => {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26,
+        lineNumber: 27,
         columnNumber: 52
       }
     }, item.name));
@@ -790,10 +1075,10 @@ const SkillData = [{
   skillLevel: "Expert",
   skillProgress: {
     width: "95%",
-    color1: "determinate orange",
+    color1: "determinate blue",
     color2: "progress white"
   },
-  grade: 4
+  grade: 3
 }];
 
 /***/ }),
@@ -1029,6 +1314,17 @@ module.exports = require("next/head");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-particles-js":
+/*!*************************************!*\
+  !*** external "react-particles-js" ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-particles-js");
 
 /***/ })
 

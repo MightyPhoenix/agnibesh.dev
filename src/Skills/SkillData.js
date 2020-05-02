@@ -82,9 +82,9 @@ export const SkillData = [
         skillLevel: "Expert",
         skillProgress: {
             width: "95%",
-            color1: "determinate orange",
+            color1: "determinate blue",
             color2: "progress white"
         },
-        grade:4
+        grade:3
     }
 ]

@@ -33,6 +33,7 @@
 
 main{
     flex: 1 0 auto;
+    z-index: 1000;
 }
 
 .jumbo{
@@ -59,8 +60,20 @@ main{
     border-radius: 20px;
 }
 
+#particles{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    z-index: 998;
+}
+
 .myfooter {
-    background-color: rgba(255,255,255,0.02);
+    background-color: rgba(255,255,255,1);
     color:white;
     width:100%;
+    z-index: 1000;
 }

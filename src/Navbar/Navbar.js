@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 const Navbar = (props) => {
+
     return (
-        <div style={{padding:"0px",margin:"0px"}}>
+        <div style={{padding:"0px",margin:"0px",backgroundColor:"none",zIndex:"1000"}} >
         <nav className="transparent">
             <div className="nav-wrapper container">
                 <a className="brand-logo font-vt left glitch" style={{padding:"25px"}} href="/">Agnibesh.DeV</a>
