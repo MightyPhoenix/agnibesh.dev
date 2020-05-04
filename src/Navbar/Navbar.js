@@ -1,7 +1,6 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 
 const Navbar = (props) => {
-
     return (
         <div style={{padding:"0px",margin:"0px",backgroundColor:"none",zIndex:"1001"}} >
         <nav className="transparent">
@@ -19,7 +18,7 @@ const Navbar = (props) => {
             <ul className="sidenav font-neucha pinkgrad center white-text" id="mobile-demo">
                 <div style={{marginTop:"50%"}}>
                     <li>
-                        <h5 className="font-vt brand-logo" style={{fontSize:"48px"}}>Agnibesh.DeV</h5>
+                        <h5 className="font-vt brand-logo" style={{fontSize:"46px"}}>Agnibesh.DeV <i onClick={props.side} className="material-icons small">arrow_back</i></h5>
                     </li>
                     <hr className="center" style={{width:"80%"}}/>
 

@@ -14,20 +14,27 @@ if (typeof window !== 'undefined'){
 
 const index = () =>{
     const Nav = [{name: "Home", link: "/"},{name: "About", link: "/about"},{name: "Contact", link: "/contact"}];
-    const [loading,setLoading] = useState(false)
+    const [toggle,setToggle]= useState(false);
 
     useEffect(()=>{
         M.AutoInit();
-        setTimeout(()=>{
-            setLoading(true)
-        },)
     },[]);
+
+    useEffect(()=>{
+      let instance = M.Sidenav.getInstance(document.querySelector('.sidenav'));
+      instance.close();
+    },[toggle])
+
+    const sideNavAction = () =>{
+        setToggle(!toggle);
+    }
+
     return (
 
     <div className="body">
         <HEAD title="A.dev"/>
         {/*HEAD END*/}
-        <Navbar NavItems={Nav}/>
+        <Navbar side={sideNavAction} NavItems={Nav}/>
         {/*NAV END*/}
 
         <main className="page" style={{zIndex:"1000"}}>
@@ -45,13 +52,3 @@ const index = () =>{
     </div>
 )};
 export default index;
-
-
-
-
-// var elems = document.querySelectorAll('.sidenav');
-// var instances = M.Sidenav.init(elems);
-// document.addEventListener('DOMContentLoaded', function() {
-//     var elems = document.querySelectorAll('.parallax');
-//     var instance = M.Parallax.init(elems);
-// });
