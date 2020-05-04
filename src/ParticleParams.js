@@ -1,5 +1,5 @@
 export const Params = {
-    "absorbers": [],
+    "absorbers": [0],
     "background": {},
     "backgroundMask": {
         "cover": {
@@ -17,7 +17,7 @@ export const Params = {
         "detectsOn": "canvas",
         "events": {
             "onClick": {
-                "enable": true,
+                "enable": false,
                 "mode": "repulse"
             },
             "onDiv": {
@@ -84,7 +84,7 @@ export const Params = {
             "value": "#ffffff"
         },
         "lineLinked": {
-            "blink": false,
+            "blink": true,
             "color": {
                 "value": "#ffffff"
             },
@@ -129,7 +129,7 @@ export const Params = {
                 "area": 800
             },
             "limit": 0,
-            "value": 160
+            "value": 400
         },
         "opacity": {
             "animation": {
