@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router'
 import './glitch.sass';
+import './glitch2.sass';
 import './style.css';
 import { PageTransition } from 'next-page-transitions'
 
@@ -8,7 +9,7 @@ import { PageTransition } from 'next-page-transitions'
 const AgnibeshDev = ({Component, pageProps}) =>{
     let router = useRouter();
     return (
-        <>
+        <div style={{padding:"0",margin:"0"}}>
             <PageTransition timeout={800} classNames="page-transition">
                 <Component {...pageProps} />
             </PageTransition>
@@ -28,7 +29,7 @@ const AgnibeshDev = ({Component, pageProps}) =>{
             transition: opacity 800ms;
           }
         `}</style>
-        </>
+        </div>
     )
 };
 

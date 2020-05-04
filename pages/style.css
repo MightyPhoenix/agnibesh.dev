@@ -12,12 +12,7 @@
     font-family: 'Neucha', cursive;
 }
 
-    /*.text-grad {*/
-    /*         !*background: -webkit-linear-gradient(#d9afd9 0%, #97d9e1 100%);*!*/
-    /*         background: -webkit-linear-gradient(#192cf2 0%, #2575fc 100%);*/
-    /*         -webkit-background-clip: text;*/
-    /*         -webkit-text-fill-color: transparent;*/
-    /*     }*/
+
 
 ::selection {
     color: black;
@@ -42,6 +37,8 @@
     background-color: black;
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
 
 main{
@@ -70,6 +67,20 @@ main{
 .gradhot {
     background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
     border-radius: 20px;
+}
+
+.text-grad {
+    background: -webkit-linear-gradient(#d9afd9 0%, #97d9e1 100%);
+    background: -webkit-linear-gradient(#192cf2 0%, #2575fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.error-text-grad {
+    background-image: linear-gradient(to left, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    /*background: -webkit-linear-gradient(#192cf2 0%, #2575fc 100%);*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #particles{
