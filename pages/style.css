@@ -76,6 +76,12 @@ main{
     -webkit-text-fill-color: transparent;
 }
 
+.text-grad-about{
+    background-image: linear-gradient(to right, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .error-text-grad {
     background-image: linear-gradient(to left, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
     /*background: -webkit-linear-gradient(#192cf2 0%, #2575fc 100%);*/

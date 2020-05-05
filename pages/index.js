@@ -14,27 +14,13 @@ if (typeof window !== 'undefined'){
 
 const index = () =>{
     const Nav = [{name: "Home", link: "/"},{name: "About", link: "/about"},{name: "Contact", link: "/contact"}];
-    const [toggle,setToggle]= useState(false);
-
-    useEffect(()=>{
-        M.AutoInit();
-    },[]);
-
-    useEffect(()=>{
-      let instance = M.Sidenav.getInstance(document.querySelector('.sidenav'));
-      instance.close();
-    },[toggle])
-
-    const sideNavAction = () =>{
-        setToggle(!toggle);
-    }
 
     return (
 
     <div className="body">
         <HEAD title="A.dev"/>
         {/*HEAD END*/}
-        <Navbar side={sideNavAction} NavItems={Nav}/>
+        <Navbar NavItems={Nav}/>
         {/*NAV END*/}
 
         <main className="page" style={{zIndex:"1000"}}>

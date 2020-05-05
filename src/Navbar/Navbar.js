@@ -1,6 +1,22 @@
 import React, {useEffect, useState} from 'react';
+if (typeof window !== 'undefined'){
+    require('materialize-css');
+}
 
 const Navbar = (props) => {
+
+    const [closeSideNav,setCloseSideNav] = useState(false);
+    const close = () => setCloseSideNav(!closeSideNav);
+
+    useEffect(()=>{
+        M.AutoInit()
+    },[])
+
+    useEffect(()=>{
+        let instance = M.Sidenav.getInstance(document.querySelector('.sidenav'));
+        instance.close();
+    },[closeSideNav])
+
     return (
         <div style={{padding:"0px",margin:"0px",backgroundColor:"none",zIndex:"1001"}} >
         <nav className="transparent">
@@ -18,7 +34,7 @@ const Navbar = (props) => {
             <ul className="sidenav font-neucha pinkgrad center white-text" id="mobile-demo">
                 <div style={{marginTop:"50%"}}>
                     <li>
-                        <h5 className="font-vt brand-logo" style={{fontSize:"46px"}}>Agnibesh.DeV <i onClick={props.side} className="material-icons small">arrow_back</i></h5>
+                        <h5 className="font-vt brand-logo" style={{fontSize:"46px"}}>Agnibesh.DeV <i onClick={close} className="material-icons small">arrow_back</i></h5>
                     </li>
                     <hr className="center" style={{width:"80%"}}/>
 

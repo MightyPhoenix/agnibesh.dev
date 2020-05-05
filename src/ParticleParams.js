@@ -17,7 +17,7 @@ export const Params = {
         "detectsOn": "canvas",
         "events": {
             "onClick": {
-                "enable": false,
+                "enable": true,
                 "mode": "repulse"
             },
             "onDiv": {
@@ -84,12 +84,12 @@ export const Params = {
             "value": "#ffffff"
         },
         "lineLinked": {
-            "blink": true,
+            "blink": false,
             "color": {
                 "value": "#ffffff"
             },
             "consent": false,
-            "distance": 150,
+            "distance": 100,
             "enable": false,
             "opacity": 0.4,
             "shadow": {
@@ -129,7 +129,7 @@ export const Params = {
                 "area": 800
             },
             "limit": 0,
-            "value": 400
+            "value": 250
         },
         "opacity": {
             "animation": {
