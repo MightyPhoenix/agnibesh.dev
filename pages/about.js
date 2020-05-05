@@ -12,7 +12,7 @@ if (typeof window !== 'undefined'){
 }
 
 const About = () => {
-    const Nav = [{name: "Home", link: "/"},{name: "About", link: "/about"},{name: "Contact", link: "/contact"}];
+    const Nav = [{name: "Home", link: "/"},{name: "About", link: "/about"},{name: "Contact", link: "/404"}];
 
     const AboutData = [
         {
