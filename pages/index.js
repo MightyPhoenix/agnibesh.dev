@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Particles from 'react-particles-js';
-import {Params} from "../src/ParticleParams";
+import {Params, paramsrainbow} from "../src/ParticleParams";
 
 import HEAD from "../src/HEAD/HEAD";
 import Navbar from '../src/Navbar/Navbar';
@@ -34,7 +34,7 @@ const index = () =>{
         {/*MAIN END*/}
 
     <Footer/>
-        <Particles params={Params} id="particles"/>
+        <Particles params={paramsrainbow} id="particles"/>
     </div>
 )};
 export default index;

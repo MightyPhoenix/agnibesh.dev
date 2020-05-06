@@ -1,12 +1,10 @@
 import React, {useEffect} from 'react';
-import Head from "next/head";
 import Navbar from "../src/Navbar/Navbar";
 import Footer from "../src/Footer/Footer";
-import {Params} from "../src/ParticleParams";
+import {Params, paramsrainbow} from "../src/ParticleParams";
 import Particles from "react-particles-js";
 import HEAD from "../src/HEAD/HEAD";
-import Bio from "../src/Bio/Bio";
-import Skills from "../src/Skills/Skills";
+
 if (typeof window !== 'undefined'){
     require('materialize-css');
 }
@@ -79,7 +77,7 @@ const About = () => {
                 {/*MAIN END*/}
 
             <Footer/>
-            <Particles params={Params} id="particles"/>
+            <Particles params={paramsrainbow} id="particles"/>
         </div>
         </div>
     )};

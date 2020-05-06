@@ -31,8 +31,8 @@ const Navbar = (props) => {
             </div>
         </nav>
 
-            <ul className="sidenav font-neucha pinkgrad center white-text" id="mobile-demo">
-                <div style={{marginTop:"50%"}}>
+            <ul className="sidenav font-neucha bluegrad center white-text" id="mobile-demo">
+                <div style={{marginTop:"80%", marginBottom:"0%"}}>
                     <li>
                         <h5 className="font-vt brand-logo" style={{fontSize:"46px"}}>Agnibesh.DeV <i onClick={close} className="material-icons small">arrow_back</i></h5>
                     </li>
