@@ -13,7 +13,7 @@ if (typeof window !== 'undefined'){
 }
 
 const index = () =>{
-    const Nav = [{name: "Home", link: "/"},{name: "About", link: "/about"},{name: "Contact", link: "/404"}];
+    const Nav = [{name: "Home", link: "/"},{name: "About", link: "/about"},{name: "Contact", link: "/contact"},{name:"404", link: "/404"}];
 
     return (
 

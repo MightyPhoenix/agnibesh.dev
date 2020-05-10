@@ -1,6 +1,7 @@
 import React from 'react';
 import {IconContext} from "react-icons";
 import { FaSpotify, FaInstagram, FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { GoRepo } from "react-icons/go";
 
 const Footer = () => {
     return (
@@ -13,6 +14,7 @@ const Footer = () => {
                         <a href={"https://www.instagram.com/hsebinga"}><FaInstagram/></a>
                         <a href={"https://open.spotify.com/user/31vhl5d4sdpth7xim4fbyypclmdi"}><FaSpotify/></a>
                         <a href={"https://www.linkedin.com/in/mightyphoenix7/"}><FaLinkedinIn/></a>
+                        <a href={"https://github.com/MightyPhoenix/agnibesh.dev"}><GoRepo/></a>
                     </div>
                 </div>
             </div>
