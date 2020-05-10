@@ -37,7 +37,7 @@ const Contact = () => {
                         <h3 className={"font-neucha white-text"}>Basically my digital footprint<GiFootprint/></h3>
                             </IconContext.Provider>
                             <IconContext.Provider  value={{size:"0.5rem",color:"white",}}>
-                            <ul className="collection white-text font-neucha left-align" style={{border:"0px solid white",background:"rgba(0,0,0,0)",fontSize:"1.5rem"}}>
+                            <ul className="collection white-text font-neucha left-align" style={{border:"0px solid white",background:"rgba(0,0,0,0)",fontSize:"2rem"}}>
 
                                 <li className="collection-item avatar" style={{border:"0px solid white",background:"rgba(0,0,0,0)"}}>
                                     <BsFillEnvelopeFill className={"circle"} style={{borderRadius:"0"}}/>
@@ -51,7 +51,7 @@ const Contact = () => {
 
                                 <li className="collection-item avatar" style={{border:"0px solid white",background:"rgba(0,0,0,0)"}}>
                                     <FaGithub className={"circle"} style={{borderRadius:"0"}}/>
-                                    <p style={{marginTop:"5%"}}><a className={"white-text"} href={"https://www.github.com/MightyPhoenix"}>Github for all them codes</a></p>
+                                    <p style={{marginTop:"5%"}}><a className={"white-text"} href={"https://www.github.com/MightyPhoenix"}>For all them codes</a></p>
                                 </li>
 
                                 <li className="collection-item avatar" style={{border:"0px solid white",background:"rgba(0,0,0,0)"}}>
