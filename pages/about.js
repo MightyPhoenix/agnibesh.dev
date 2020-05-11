@@ -22,7 +22,7 @@ const About = () => {
         {
             Title:"Alma Mater",
             IconName:"school",
-            Content:"Started off life in TinyTots, Alipore. Then I was in Kendriya Vidyalaya Fort William for schooling and the got into B.Tech (CSE) Undergrad at Calcutta Institute of Engineering and Management, School was great and college is too (mostly).",
+            Content:"Started off life in TinyTots, Alipore. Then I was in Kendriya Vidyalaya Fort William for schooling and then got into B.Tech (CSE) Undergrad at Calcutta Institute of Engineering and Management, School was great and college is too (mostly).",
             TitleBg:{border:"0px",borderRadius:"15px",borderColor:"black"}
         },
         {
