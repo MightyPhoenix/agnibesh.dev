@@ -41,7 +41,7 @@ const Contact = () => {
 
                                 <li className="collection-item avatar" style={{border:"0px solid white",background:"rgba(0,0,0,0)"}}>
                                     <BsFillEnvelopeFill className={"circle"} style={{borderRadius:"0"}}/>
-                                    <p style={{marginTop:"5%"}}><a href={"mailto:agnibesh00mukherjee@gmail.com"} className={"white-text"}>Email me Old-School</a></p>
+                                    <p style={{marginTop:"5%"}}><a href={"mailto:me@agnibesh.dev"} className={"white-text"}>Email me Old-School</a></p>
                                 </li>
 
                                 <li className="collection-item avatar" style={{border:"0px solid white",background:"rgba(0,0,0,0)"}}>
