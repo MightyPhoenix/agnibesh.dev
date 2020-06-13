@@ -44,6 +44,17 @@ export const SkillData = [
         grade:5
     },
     {
+        skillName:"Java",
+        imgLink:"https://sdtimes.com/wp-content/uploads/2019/03/jW4dnFtA_400x400.jpg",
+        skillLevel:"Intermediate",
+        skillProgress: {
+            width: "60%",
+            color1: "determinate amber darken-3",
+            color2: "progress white"
+        },
+        grade:3
+    },
+    {
         skillName:"Firebase",
         imgLink:"https://avatars0.githubusercontent.com/u/1335026?v=3&s=280",
         skillLevel:"Beginner",

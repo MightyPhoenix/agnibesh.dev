@@ -10,7 +10,7 @@ const Bio = () => {
             <div className="col l8 center white-text">
                 <img width="60%" className="hide-on-large-only hide-on-extra-large-only circle responsive-img" style={{marginTop:"20px"}} src="/displaypicture.jpg" alt="myface"/>
                 <h1 className="h1 font-caveat">{BioData.Name}</h1>
-                <h4 className="h4 font-neucha"> {BioData.tagLine[0]}  <span className="hide-on-small-and-down"> | </span> {BioData.tagLine[1]} </h4>
+                <h4 className="h4 font-neucha"> {BioData.tagLine[0]} <br className={"hide-on-med-and-up"}/> <span className="hide-on-small-and-down"> | </span> {BioData.tagLine[1]} </h4>
                 <h5 className="font-caveat" style={{fontSize:"26px"}}>B.Tech (CSE) 2nd Year</h5>
                 {BioData.paragraphs.map((para)=>{
                     return(
