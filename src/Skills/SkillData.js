@@ -2,7 +2,7 @@ export const SkillData = [
     {
         skillName:"JavaScript (ES6)",
         imgLink:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
-        skillLevel:"Intermidiate",
+        skillLevel:"Intermediate",
         skillProgress: {
             width: "80%",
             color1: "determinate yellow darken-1",
@@ -13,7 +13,7 @@ export const SkillData = [
     {
         skillName:"React JS",
         imgLink:"https://codeguida.com/media/post_title/React.js_logo.svg_fjk2YxB.png",
-        skillLevel:"Intermidiate",
+        skillLevel:"Intermediate",
         skillProgress: {
             width: "60%",
             color1: "determinate cyan",
@@ -24,7 +24,7 @@ export const SkillData = [
     {
         skillName:"Python3",
         imgLink:"https://pythonprogramming.net/static/images/finance/python-programming-language.png",
-        skillLevel:"Intermidiate",
+        skillLevel:"Intermediate",
         skillProgress: {
             width: "75%",
             color1: "determinate light-blue",
