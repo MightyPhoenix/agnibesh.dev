@@ -11,8 +11,8 @@ const _Error = () => {
             <HEAD title="A.dev"/>
 
             <main className="error-text-grad" style={{flex:"1 0 auto",top:"50%",left:"50%",position:"absolute",transform:"translate(-50%,-50%)",zIndex:"1001"}}>
-            <h1 className="white-text center font-vt" style={{fontSize:"57px"}}>Error 404</h1>
-                <p className="center font-caveat flow-text white-text" style={{fontSize:"28px"}}>Nothing here! Get back to <a href="/">Home</a>?</p>
+            <h1 className="error-text-grad white-text center font-vt" style={{fontSize:"57px"}}>Error 404</h1>
+                <p className="error-text-grad center font-caveat flow-text white-text" style={{fontSize:"28px"}}>Nothing here! Get back to <a href="/">Home</a>?</p>
             </main>
             <Particles params={params2} id="particles"/>
         </div>
