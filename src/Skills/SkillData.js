@@ -8,18 +8,18 @@ export const SkillData = [
             color1: "determinate yellow darken-1",
             color2: "progress white"
         },
-        grade:4
+        grade:0
     },
     {
         skillName:"React JS",
         imgLink:"https://codeguida.com/media/post_title/React.js_logo.svg_fjk2YxB.png",
         skillLevel:"Intermediate",
         skillProgress: {
-            width: "60%",
+            width: "80%",
             color1: "determinate cyan",
             color2: "progress white"
         },
-        grade:5
+        grade:0
     },
     {
         skillName:"Python3",
@@ -30,7 +30,7 @@ export const SkillData = [
             color1: "determinate light-blue",
             color2: "progress white"
         },
-        grade:4
+        grade:0
     },
     {
         skillName:"C/C++",
@@ -41,29 +41,29 @@ export const SkillData = [
             color1: "determinate deep-purple",
             color2: "progress white"
         },
-        grade:5
+        grade:0
     },
     {
         skillName:"Java",
         imgLink:"https://sdtimes.com/wp-content/uploads/2019/03/jW4dnFtA_400x400.jpg",
         skillLevel:"Intermediate",
         skillProgress: {
-            width: "60%",
+            width: "65%",
             color1: "determinate amber darken-3",
             color2: "progress white"
         },
-        grade:3
+        grade:0
     },
     {
         skillName:"Firebase",
         imgLink:"https://avatars0.githubusercontent.com/u/1335026?v=3&s=280",
         skillLevel:"Beginner",
         skillProgress: {
-            width: "45%",
+            width: "55%",
             color1: "determinate amber darken-2",
             color2: "progress white"
         },
-        grade:3
+        grade:0
     },
     {
         skillName:"MongoDB",
@@ -74,7 +74,7 @@ export const SkillData = [
             color1: "determinate green darken-1",
             color2: "progress white"
         },
-        grade:5
+        grade:0
     },
     {
         skillName: "HTML5",
@@ -85,7 +85,7 @@ export const SkillData = [
             color1: "determinate orange",
             color2: "progress white"
         },
-        grade:4
+        grade:0
     },
     {
         skillName: "CSS3",
@@ -96,6 +96,6 @@ export const SkillData = [
             color1: "determinate blue",
             color2: "progress white"
         },
-        grade:3
+        grade:0
     }
 ]
