@@ -15,7 +15,7 @@ const Footer = () => {
                             <a href={"https://open.spotify.com/user/31vhl5d4sdpth7xim4fbyypclmdi"}><FaSpotify/></a>
                             <a href={"https://www.linkedin.com/in/mightyphoenix7/"}><FaLinkedinIn/></a>
                             <a href={"https://github.com/MightyPhoenix/agnibesh.dev"}><GoRepo/></a>
-                            <a href={"https://twitter.com/PhxMJ"}><FaTwitter/></a>
+                            <a href={"https://twitter.com/hsebinga"}><FaTwitter/></a>
                         </div>
                     </div>
                 </div>
